@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: bisque;
+}
+
+.container{
+    width: 400px;
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+.counter{
+    font-size: 40px;
+}
+
+.loadingBarGround{
+    height: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+}
+
+.loadingBarFront{
+    height: 10px;
+    background-color: rgb(54, 144, 166);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    width: 0%;
+}

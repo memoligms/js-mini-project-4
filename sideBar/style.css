@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: rgb(229, 229, 229);
+  }
+  
+  .fa-bars {
+    position: fixed;
+    top: 30px;
+    right: 45px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+  }
+  .sideBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    height: 100%;
+    width: 300px;
+    transform: translate(-100%);
+    transition: 0.7s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset,
+    rgba(0, 0, 0, 0.35)  0 22px 70px 4px;
+  }
+  .sideBarHeader {
+    text-align: right;
+    padding: 16px;
+    cursor: pointer;
+  }
+  .menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    padding: 16px 24px;
+    display: block;
+  }
+  .menu a:hover {
+    background: black;
+    color: white;
+    padding-left: 40px;
+    transition: 0.7s;
+  }
+
+  .showSidebar {
+    transform: translate(0%);
+  }
